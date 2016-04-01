@@ -9,7 +9,7 @@
     "test-fedora": "sh ./mocha-fedora.sh"
   },
   "keywords": [
-    "mac",
+    "fedora",
     "service",
     "launchd"
   ],
