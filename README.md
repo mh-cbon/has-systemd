@@ -31,3 +31,9 @@ or just
 
 - download and install `mocha`
 - `mocha test/not-fedora.js`
+
+## Notes
+
+More tests are needed on more boxes, have a look at this,
+- http://unix.stackexchange.com/questions/18209/detect-init-system-using-the-shell
+- http://unix.stackexchange.com/questions/196166/how-to-find-out-if-a-system-uses-sysv-upstart-or-systemd-initsystem
