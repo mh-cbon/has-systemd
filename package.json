@@ -1,0 +1,21 @@
+{
+  "name": "@mh-cbon/has-systemd",
+  "version": "1.0.0",
+  "description": "tells if a system runs systemd service manager",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "test-not-fedora": "sh ./mocha-not-fedora.sh",
+    "test-fedora": "sh ./mocha-fedora.sh"
+  },
+  "keywords": [
+    "mac",
+    "service",
+    "launchd"
+  ],
+  "author": "mh-cbon <mh-cbon@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "should": "^8.3.0"
+  }
+}
