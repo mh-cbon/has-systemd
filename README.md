@@ -1,4 +1,4 @@
-# has-launchd
+# has-systemd
 
 Tells if linux [systemd](https://en.wikipedia.org/wiki/Systemd) is available.
 
