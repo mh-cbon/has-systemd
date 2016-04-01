@@ -16,6 +16,8 @@ function hasSystemd (then) {
      if (code===0) return then (undefined, systemctlPath)
      then('not found')
   })
+  
+  s.on('error', function () {})
 }
 
 module.exports = hasSystemd;
